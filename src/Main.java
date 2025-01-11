@@ -2,14 +2,23 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        String str = "abcba";
+        System.out.println(isPalindrome(str));
+    }
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+    static boolean isPalindrome(String str) {
+        if (str == null || str.length() == 0) {
+            return true;
         }
+        str = str.toLowerCase();
+        for (int i = 0; i <= str.length() / 2; i++) {
+            char start = str.charAt(i);
+            char end = str.charAt(str.length() - 1 - i);
+
+            if (start != end) {
+                return false;
+            }
+        }
+        return true;
     }
 }

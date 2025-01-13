@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="546659b9-86c3-4b2e-b032-382b5b646a56" name="Changes" comment="othet ds files added" />
+    <list default="true" id="546659b9-86c3-4b2e-b032-382b5b646a56" name="Changes" comment="othet ds files added2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,66 +33,81 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BS_Sqrt.executor": "Run",
-    "Application.Bubble.executor": "Run",
-    "Application.Ceiling_Of_No.executor": "Run",
-    "Application.CountZeros.executor": "Run",
-    "Application.DigitSum.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.InfiniteArray.executor": "Run",
-    "Application.Linear_Search.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MergeSort.executor": "Run",
-    "Application.Permutations.executor": "Run",
-    "Application.Prime.executor": "Run",
-    "Application.Q1.executor": "Run",
-    "Application.Q13.executor": "Run",
-    "Application.Q2.executor": "Run",
-    "Application.Q3.executor": "Run",
-    "Application.Q4SubSeq.executor": "Run",
-    "Application.Q5SubSeqUsingArrList.executor": "Run",
-    "Application.Q6SubSeqWithAscii.executor": "Run",
-    "Application.Q7SubSeqWithAsciiArrList.executor": "Run",
-    "Application.Q8SubsetUsingIteration.executor": "Run",
-    "Application.Q9SubSeqDuplicateValues.executor": "Run",
-    "Application.QuickSort.executor": "Debug",
-    "Application.RBS.executor": "Run",
-    "Application.Reverse.executor": "Run",
-    "Application.Rotated_Binary_Search.executor": "Run",
-    "Application.RotationCount.executor": "Run",
-    "Application.RowColMatrix.executor": "Run",
-    "Application.Selection.executor": "Run",
-    "Application.SetBits.executor": "Run",
-    "Application.Sorted2D_Array.executor": "Run",
-    "Application.Sorted_Array.executor": "Run",
-    "Application.arr2D.executor": "Run",
-    "Application.arrayListExample.executor": "Run",
-    "Application.binary_Search.executor": "Run",
-    "Application.binary_search.executor": "Run",
-    "Application.bubble_sort.executor": "Run",
-    "Application.cyclic_sort.executor": "Run",
-    "Application.evenDigits.executor": "Run",
-    "Application.fibonacci_series.executor": "Run",
-    "Application.floor_Of_No.executor": "Run",
-    "Application.insertion_sort.executor": "Run",
-    "Application.linearSearch.executor": "Run",
-    "Application.linearSerachQue.executor": "Run",
-    "Application.max.executor": "Run",
-    "Application.maxWealth.executor": "Run",
-    "Application.multiAL.executor": "Run",
-    "Application.pattern1.executor": "Run",
-    "Application.recursion.patterns.pattern1.executor": "Run",
-    "Application.selection_sort.executor": "Run",
-    "Application.swap.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "D:/DSA/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BS_Sqrt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Bubble.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ceiling_Of_No.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountZeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DigitSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InfiniteArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeetCode17.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Linear_Search.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Permutations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q13.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q4SubSeq.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q5SubSeqUsingArrList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q6SubSeqWithAscii.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q7SubSeqWithAsciiArrList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q8SubsetUsingIteration.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Q9SubSeqDuplicateValues.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuickSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RBS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reverse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Rotated_Binary_Search.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotationCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RowColMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Selection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SetBits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sorted2D_Array.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sorted_Array.executor&quot;: &quot;Run&quot;,
+    &quot;Application.arr2D.executor&quot;: &quot;Run&quot;,
+    &quot;Application.arrayListExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.binary_Search.executor&quot;: &quot;Run&quot;,
+    &quot;Application.binary_search.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bubble_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.cyclic_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.evenDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.fibonacci_series.executor&quot;: &quot;Run&quot;,
+    &quot;Application.floor_Of_No.executor&quot;: &quot;Run&quot;,
+    &quot;Application.insertion_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.linearSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.linearSerachQue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.max.executor&quot;: &quot;Run&quot;,
+    &quot;Application.maxWealth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.multiAL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pattern1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.recursion.patterns.pattern1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.selection_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.swap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.throwingDice.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/DSA/src/Main.java&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Permutations">
+}</component>
+  <component name="RunManager" selected="Application.Q1">
+    <configuration name="LeetCode17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.LeetCode17" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="DSA" />
@@ -111,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q7SubSeqWithAsciiArrList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.Subset_subseq_string_Que.Q7SubSeqWithAsciiArrList" />
+    <configuration name="Q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.MazeProblems_and_Backtracking.Q1" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.Subset_subseq_string_Que.*" />
+          <option name="PATTERN" value="recursion.MazeProblems_and_Backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,25 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q8SubsetUsingIteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.Subset_subseq_string_Que.Q8SubsetUsingIteration" />
+    <configuration name="throwingDice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.throwingDice" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.Subset_subseq_string_Que.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q9SubSeqDuplicateValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.Subset_subseq_string_Que.Q9SubSeqDuplicateValues" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.Subset_subseq_string_Que.*" />
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q1" />
+        <item itemvalue="Application.throwingDice" />
+        <item itemvalue="Application.LeetCode17" />
         <item itemvalue="Application.Permutations" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Q9SubSeqDuplicateValues" />
-        <item itemvalue="Application.Q8SubsetUsingIteration" />
-        <item itemvalue="Application.Q7SubSeqWithAsciiArrList" />
       </list>
     </recent_temporary>
   </component>
@@ -201,14 +205,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736624133531</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="othet ds files added2">
+      <option name="closed" value="true" />
+      <created>1736624240178</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736624240178</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="all filed added" />
     <MESSAGE value="othet ds files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="othet ds files added" />
+    <MESSAGE value="othet ds files added2" />
+    <option name="LAST_COMMIT_MESSAGE" value="othet ds files added2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -217,6 +230,11 @@
           <url>file://$PROJECT_DIR$/src/patterns/pattern1.java</url>
           <line>85</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/Subset_subseq_string_Que/Permutations.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="546659b9-86c3-4b2e-b032-382b5b646a56" name="Changes" comment="othet ds files added3">
+    <list default="true" id="546659b9-86c3-4b2e-b032-382b5b646a56" name="Changes" comment="added LL">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/selection_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/selection_sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/LL/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LL/LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/LL/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LL/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,85 +36,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BS_Sqrt.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Bubble.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ceiling_Of_No.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountZeros.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CustomArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DigitSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InfiniteArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeetCode17.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Linear_Search.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedList.LL.DLL.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedList.LL.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NQueens.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Nknights.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OOP.exceptions.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OOP.interfaces.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Oop1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Permutations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Prime.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q13.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q4SubSeq.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q5SubSeqUsingArrList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q5_AllPaths.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q6SubSeqWithAscii.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q7SubSeqWithAsciiArrList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q8SubsetUsingIteration.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Q9SubSeqDuplicateValues.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuickSort.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RBS.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reverse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Rotated_Binary_Search.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RotationCount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RowColMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Selection.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SetBits.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sorted2D_Array.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sorted_Array.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SudokuSolverLeetcode37.executor&quot;: &quot;Run&quot;,
-    &quot;Application.arr2D.executor&quot;: &quot;Run&quot;,
-    &quot;Application.arrayListExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.binary_Search.executor&quot;: &quot;Run&quot;,
-    &quot;Application.binary_search.executor&quot;: &quot;Run&quot;,
-    &quot;Application.bubble_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.cyclic_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.evenDigits.executor&quot;: &quot;Run&quot;,
-    &quot;Application.fibonacci_series.executor&quot;: &quot;Run&quot;,
-    &quot;Application.floor_Of_No.executor&quot;: &quot;Run&quot;,
-    &quot;Application.insertion_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.linearSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.linearSerachQue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.max.executor&quot;: &quot;Run&quot;,
-    &quot;Application.maxWealth.executor&quot;: &quot;Run&quot;,
-    &quot;Application.multiAL.executor&quot;: &quot;Run&quot;,
-    &quot;Application.pattern1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.recursion.patterns.pattern1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.selection_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.swap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.throwingDice.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/DSA/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AVL.executor": "Run",
+    "Application.BS_Sqrt.executor": "Run",
+    "Application.BinaryTree.executor": "Run",
+    "Application.Bubble.executor": "Run",
+    "Application.Ceiling_Of_No.executor": "Run",
+    "Application.CountZeros.executor": "Run",
+    "Application.CustomArrayList.executor": "Run",
+    "Application.DigitSum.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.Heap.executor": "Run",
+    "Application.InfiniteArray.executor": "Run",
+    "Application.LeetCode17.executor": "Run",
+    "Application.Linear_Search.executor": "Run",
+    "Application.LinkedList.LL.DLL.Main.executor": "Run",
+    "Application.LinkedList.LL.Main.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MergeSort.executor": "Run",
+    "Application.NQueens.executor": "Run",
+    "Application.Nknights.executor": "Run",
+    "Application.OOP.exceptions.Main.executor": "Run",
+    "Application.OOP.interfaces.Main.executor": "Run",
+    "Application.Oop1.executor": "Run",
+    "Application.Permutations.executor": "Run",
+    "Application.Prime.executor": "Run",
+    "Application.Q1.executor": "Run",
+    "Application.Q13.executor": "Run",
+    "Application.Q2.executor": "Run",
+    "Application.Q3.executor": "Run",
+    "Application.Q4.executor": "Run",
+    "Application.Q4SubSeq.executor": "Run",
+    "Application.Q5SubSeqUsingArrList.executor": "Run",
+    "Application.Q5_AllPaths.executor": "Run",
+    "Application.Q6SubSeqWithAscii.executor": "Run",
+    "Application.Q7SubSeqWithAsciiArrList.executor": "Run",
+    "Application.Q8SubsetUsingIteration.executor": "Run",
+    "Application.Q9SubSeqDuplicateValues.executor": "Run",
+    "Application.QueueMain.executor": "Run",
+    "Application.QuickSort.executor": "Debug",
+    "Application.RBS.executor": "Run",
+    "Application.Reverse.executor": "Run",
+    "Application.Rotated_Binary_Search.executor": "Run",
+    "Application.RotationCount.executor": "Run",
+    "Application.RowColMatrix.executor": "Run",
+    "Application.SegmentTree.executor": "Run",
+    "Application.Selection.executor": "Run",
+    "Application.SetBits.executor": "Run",
+    "Application.Sorted2D_Array.executor": "Run",
+    "Application.Sorted_Array.executor": "Run",
+    "Application.StackMain.executor": "Run",
+    "Application.SudokuSolverLeetcode37.executor": "Run",
+    "Application.Two_Stacks.executor": "Run",
+    "Application.arr2D.executor": "Run",
+    "Application.arrayListExample.executor": "Run",
+    "Application.binary_Search.executor": "Run",
+    "Application.binary_search.executor": "Run",
+    "Application.bubble_sort.executor": "Run",
+    "Application.cyclic_sort.executor": "Run",
+    "Application.evenDigits.executor": "Run",
+    "Application.fibonacci_series.executor": "Run",
+    "Application.floor_Of_No.executor": "Run",
+    "Application.insertion_sort.executor": "Run",
+    "Application.linearSearch.executor": "Run",
+    "Application.linearSerachQue.executor": "Run",
+    "Application.max.executor": "Run",
+    "Application.maxWealth.executor": "Run",
+    "Application.multiAL.executor": "Run",
+    "Application.pattern1.executor": "Run",
+    "Application.recursion.patterns.pattern1.executor": "Run",
+    "Application.selection_sort.executor": "Run",
+    "Application.swap.executor": "Run",
+    "Application.throwingDice.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "D:/DSA/src/Main.java"
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CustomArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.generics.CustomArrayList" />
+}]]></component>
+  <component name="RunManager" selected="Application.Heap">
+    <configuration name="AVL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.AVL" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP.generics.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList.LL.DLL.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.LL.DLL.Main" />
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BinaryTree" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.LL.DLL.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList.LL.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.LL.Main" />
+    <configuration name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heap.Heap" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.LL.*" />
+          <option name="PATTERN" value="heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.LL.CLL.Main" />
+    <configuration name="SegmentTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.SegmentTree" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.LL.CLL.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOP.exceptions.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.exceptions.Main" />
+    <configuration name="Two_Stacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack_and_queue.Two_Stacks" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP.exceptions.*" />
+          <option name="PATTERN" value="stack_and_queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.LinkedList.LL.DLL.Main" />
-        <item itemvalue="Application.LinkedList.LL.Main" />
-        <item itemvalue="Application.OOP.exceptions.Main" />
-        <item itemvalue="Application.CustomArrayList" />
+        <item itemvalue="Application.Heap" />
+        <item itemvalue="Application.BinaryTree" />
+        <item itemvalue="Application.SegmentTree" />
+        <item itemvalue="Application.AVL" />
+        <item itemvalue="Application.Two_Stacks" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736733269635</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added LL">
+      <option name="closed" value="true" />
+      <created>1739740645828</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739740645828</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,7 +284,8 @@
     <MESSAGE value="othet ds files added" />
     <MESSAGE value="othet ds files added2" />
     <MESSAGE value="othet ds files added3" />
-    <option name="LAST_COMMIT_MESSAGE" value="othet ds files added3" />
+    <MESSAGE value="added LL" />
+    <option name="LAST_COMMIT_MESSAGE" value="added LL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -290,7 +307,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/LinkedList/LL/LL.java</url>
-          <line>53</line>
+          <line>65</line>
           <properties class="LinkedList.LL.LL" method="deleteFirst">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

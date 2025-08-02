@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="546659b9-86c3-4b2e-b032-382b5b646a56" name="Changes" comment="added LL">
+    <list default="true" id="546659b9-86c3-4b2e-b032-382b5b646a56" name="Changes" comment="added hashmap manually">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/LL/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LL/LL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/LL/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LL/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,9 @@
     "Application.DigitSum.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.Heap.executor": "Run",
+    "Application.HuffmanCoding.executor": "Run",
     "Application.InfiniteArray.executor": "Run",
+    "Application.KarpRabin.executor": "Run",
     "Application.LeetCode17.executor": "Run",
     "Application.Linear_Search.executor": "Run",
     "Application.LinkedList.LL.DLL.Main.executor": "Run",
@@ -77,6 +77,7 @@
     "Application.QueueMain.executor": "Run",
     "Application.QuickSort.executor": "Debug",
     "Application.RBS.executor": "Run",
+    "Application.Radix_Sort.executor": "Run",
     "Application.Reverse.executor": "Run",
     "Application.Rotated_Binary_Search.executor": "Run",
     "Application.RotationCount.executor": "Run",
@@ -94,6 +95,7 @@
     "Application.binary_Search.executor": "Run",
     "Application.binary_search.executor": "Run",
     "Application.bubble_sort.executor": "Run",
+    "Application.count_sort.executor": "Run",
     "Application.cyclic_sort.executor": "Run",
     "Application.evenDigits.executor": "Run",
     "Application.fibonacci_series.executor": "Run",
@@ -115,9 +117,9 @@
     "onboarding.tips.debug.path": "D:/DSA/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Heap">
-    <configuration name="AVL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.AVL" />
+  <component name="RunManager" selected="Application.HuffmanCoding">
+    <configuration name="HuffmanCoding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.HuffmanCoding" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -129,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.BinaryTree" />
+    <configuration name="KarpRabin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashmap.KarpRabin" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="hashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heap.Heap" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashmap.Main" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heap.*" />
+          <option name="PATTERN" value="hashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SegmentTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.SegmentTree" />
+    <configuration name="Radix_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.Radix_Sort" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Two_Stacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack_and_queue.Two_Stacks" />
+    <configuration name="count_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.count_sort" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack_and_queue.*" />
+          <option name="PATTERN" value="sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Heap" />
-        <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.SegmentTree" />
-        <item itemvalue="Application.AVL" />
-        <item itemvalue="Application.Two_Stacks" />
+        <item itemvalue="Application.HuffmanCoding" />
+        <item itemvalue="Application.Radix_Sort" />
+        <item itemvalue="Application.count_sort" />
+        <item itemvalue="Application.KarpRabin" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +266,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739740645828</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added heap">
+      <option name="closed" value="true" />
+      <created>1750901832362</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750901832362</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added hashmap manually">
+      <option name="closed" value="true" />
+      <created>1750991422454</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750991422454</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,7 +303,9 @@
     <MESSAGE value="othet ds files added2" />
     <MESSAGE value="othet ds files added3" />
     <MESSAGE value="added LL" />
-    <option name="LAST_COMMIT_MESSAGE" value="added LL" />
+    <MESSAGE value="added heap" />
+    <MESSAGE value="added hashmap manually" />
+    <option name="LAST_COMMIT_MESSAGE" value="added hashmap manually" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
